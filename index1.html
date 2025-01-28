@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پروفایل تونی کروس</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('T.webp'); /* مسیر تصویر پس‌زمینه */
+            background-size: cover; /* پوشش کل صفحه */
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            margin: 0;
+        }
+
+        .profile-card {
+            background: rgba(255, 255, 255, 0.219); /* پس‌زمینه نیمه‌شفاف */
+            backdrop-filter: blur(10px); /* افکت محو برای زیبایی */
+            padding: 90px; /* متناسب‌سازی فضای داخلی */
+            border-radius: 15px; /* گرد کردن گوشه‌ها */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* سایه برای جذابیت */
+            text-align: center;
+            max-width: 500px; /* حداکثر عرض */
+            width: 100%;
+        }
+
+        .profile-card img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 4px solid #4CAF50;
+        }
+        
+        .profile-card h2 {
+            margin: 10px 0;
+            color: #000000;
+        }
+        
+        .profile-card p {
+            color: #000000;
+            font-size: 16px;
+        }
+
+        .social-links {
+            margin-top: 15px;
+        }
+        
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+            color: white;
+            background: #4CAF50;
+            padding: 8px 12px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        
+        .social-links a:hover {
+            background: #388E3C;
+        }
+
+        @media (max-width: 400px) {
+            .profile-card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="Screenshot_20250128_134714_Chrome.jpg" alt="تصویر بازیکن">
+        <h1>تونی کروس</h1>
+        <p>پست:هافبک</p>
+        <p>قد: ۱۸۰ سانتی‌متر | وزن: ۷۵ کیلوگرم</p>
+        <p>تیم ها:رئال مادرید,بایرن مونیخ,بایرن لورکوزن,تیم ملی المان</p>
+        <div class="social-links">
+            <a href="#">اینستاگرام</a>
+            <a href="#">توییتر</a>
+            <a href="#">لینکدین</a>
+        </div>
+    </div>
+</body>
+</html>
